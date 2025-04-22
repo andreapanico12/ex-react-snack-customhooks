@@ -25,6 +25,7 @@ function useCustomPointer(newPointer) {
     left: position.x,
     transform: "translate(-50%, -50%)",
     pointerEvents: "none", 
+    cursor: "none",
     zIndex: 9999,
     fontSize: "2rem"
   };
